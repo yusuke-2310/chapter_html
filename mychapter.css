@@ -10,6 +10,42 @@ header{
   background-color: #FF9A4B
 }
 
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.window{
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: #EEE;
+  position: relative;
+}
+
+.window:last-child{
+  margin-right: 0;
+}
+
+.step-number{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  background-color: #FF9A4B;
+}
+
+.window-image{
+  height: 150px;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url(image/flow01.png);
+}
+
+.title{
+  margin: 15px 5px 0 0;
+}
 
 
 footer{
