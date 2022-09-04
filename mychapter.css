@@ -43,6 +43,20 @@ main{
   background-image: url(image/flow01.png);
 }
 
+.window-image2{
+  height: 150px;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url(image/flow02.png);
+}
+
+.window-image3{
+  height: 150px;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url(image/flow03.png);
+}
+
 .title{
   margin: 15px 5px 0 0;
 }
